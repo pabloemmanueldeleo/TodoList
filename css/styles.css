@@ -1,0 +1,128 @@
+/* Base styles */
+
+body {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ac341c;
+  margin-bottom: 0px;
+  margin-top: 0;
+  font-size: 55px;
+  text-align: center;
+  background-color: blue;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 28px;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.center-auto {
+  margin: 0 auto; /* tambien se puede hacer "margin-left: auto;margin-right:auto;" y lograr lo mismo */
+}
+
+.centered-block {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: green;
+}
+
+.block {
+  display: block;
+}
+
+.example {
+  background-color: #cccccc;
+  border: 1px solid #aaa;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.nueva-tarea {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 20px;
+}
+
+.nueva-tarea .form-group {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+.nueva-tarea label {
+  width: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.nueva-tarea input,
+.nueva-tarea textarea {
+  width: 300px;
+}
+
+.lista-de-tareas {
+  padding: 10px;
+  padding-top: 0;
+  margin: 0;
+}
+
+.tarea {
+  background-color: lavender;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+}
+
+.tarea.completado {
+  background-color: lightgreen;
+}
+
+.tarea img {
+  max-width: 50px;
+  max-height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: darkviolet;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.buttons {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.buttons button {
+  display: inline-block;
+}

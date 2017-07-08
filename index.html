@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lista de Tareas</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1 class="title">Lista de Tareas</h1>
+			</header>
+
+			<section class="nueva-tarea">
+				<form>
+					<div class="form-group">
+						<label>Nombre de la tarea</label>
+						<input id="titulo" type="text" name="">
+					</div>
+					<div class="form-group">
+						<label>Ruta de imagen</label>
+						<input id="ruta-imagen"type="text" name="">
+					</div>
+					<div class="form-group">
+						<label>Descripcion</label>
+						<textarea id="descripcion"></textarea>
+					</div>
+					<div>
+						<button id="agregar-tarea">Agregar Tarea</button>
+					</div>
+				</form>
+			</section>
+			<section class="buttons">
+				<button id="salvar">Salvar Cambios</button>
+				<button id="ordernar-asc">A-Z</button>
+				<button id="ordernar-desc">Z-A</button>
+				<button id="ordernar-id">ID</button>
+			</section>
+			<section>
+				<ul class="lista-de-tareas"></ul>
+			</section>
+
+		</main>
+	</body>
+	<script type="text/javascript" src="js/app.js"></script>
+</html>
